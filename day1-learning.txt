@@ -1,0 +1,5 @@
+DAY 1 — ML Journey Start
+
+• Revised Python basics
+• Understood what Machine Learning is
+• Created my GitHub practice repository
