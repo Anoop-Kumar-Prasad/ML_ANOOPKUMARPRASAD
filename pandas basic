@@ -1,0 +1,19 @@
+import pandas as pd
+# Creating dataset
+data = {
+    "Name": ["Anoop", "Rahul", "Sneha", "Priya"],
+    "Age": [18, 19, 20, 21],
+    "Marks": [85, 90, 88, 92]
+}
+df = pd.DataFrame(data)
+print("Dataset:")
+print(df)
+# Basic information
+print("\nDataset Info:")
+print(df.info())
+# Mean of marks
+print("\nAverage Marks:", df["Marks"].mean())
+# Students with marks greater than 88
+top_students = df[df["Marks"] > 88]
+print("\nTop Students:")
+print(top_students)
