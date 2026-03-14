@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+# Sample data
+students = ["Anoop", "Rahul", "Sneha", "Priya"]
+marks = [85, 90, 88, 92]
+# Bar chart
+plt.bar(students, marks)
+plt.title("Student Marks")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.show()
