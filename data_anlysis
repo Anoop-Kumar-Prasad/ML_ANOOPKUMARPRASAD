@@ -1,0 +1,17 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+# Sample dataset
+data={"Name": ["Anoop","Rahul","Sneha","Priya","Amit"],"Marks":[85,90,88,92,75]}
+df=pd.DataFrame(data)
+print("Dataset:")
+print(df)
+# Basic stats
+print("\nAverage Marks:", df["Marks"].mean())
+print("Highest Marks:", df["Marks"].max())
+print("Lowest Marks:", df["Marks"].min())
+# Bar chart
+plt.bar(df["Name"], df["Marks"])
+plt.title("Student Marks Analysis")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.show()
